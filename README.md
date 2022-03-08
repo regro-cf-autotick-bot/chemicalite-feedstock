@@ -7,7 +7,7 @@ Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/chemicalite-feedstock/blob/master/LICENSE.txt)
 
-Summary: An SQLite extension for chemoninformatics applications
+Summary: An SQLite extension for chemoinformatics applications
 
 Development: https://github.com/rvianello/chemicalite
 
