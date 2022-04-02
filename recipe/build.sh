@@ -1,4 +1,5 @@
 cmake \
+    -D CMAKE_CXX_STANDARD=14 \
     -D CMAKE_INSTALL_PREFIX=$PREFIX \
     -D CMAKE_INSTALL_LIBDIR=lib \
     -D CMAKE_BUILD_TYPE=Release \
