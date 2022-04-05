@@ -1,5 +1,5 @@
 {% set name = "chemicalite" %}
-{% set version = "2022.01.2" %}
+{% set version = "2022.04.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/rvianello/chemicalite/archive/refs/tags/{{ version }}.tar.gz
-  sha256: ff07f2e23682c856803bf20d3f4e6e323dbbb1c96c675a2a5393d69b716c6941
+  sha256: 4527329b62d28923bfd07742a1cadca137407478246b79ec0a497900fa109ba8
 
 build:
-  number: 1
+  number: 0
   skip: True  # [win]
 
 requirements:
@@ -21,7 +21,7 @@ requirements:
     - {{ compiler('cxx') }}
   host:
     - sqlite
-    - rdkit ==2021.09.5
+    - rdkit ==2022.03.1
     - eigen
     - catch2
   run:
