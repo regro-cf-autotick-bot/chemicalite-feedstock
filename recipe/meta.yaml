@@ -10,7 +10,7 @@ source:
   sha256: 4527329b62d28923bfd07742a1cadca137407478246b79ec0a497900fa109ba8
 
 build:
-  number: 2
+  number: 3
   skip: True  # [win]
 
 requirements:
@@ -21,7 +21,7 @@ requirements:
     - {{ compiler('cxx') }}
   host:
     - sqlite
-    - rdkit ==2022.03.3
+    - rdkit ==2022.03.4
     - eigen
     - catch2 <3
   run:
