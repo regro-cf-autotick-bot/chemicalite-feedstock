@@ -24,6 +24,7 @@ requirements:
     - rdkit ==2022.03.5
     - eigen
     - catch2 <3
+    - zlib
   run:
     - sqlite
     - {{ pin_compatible('rdkit', max_pin='x.x.x') }}
