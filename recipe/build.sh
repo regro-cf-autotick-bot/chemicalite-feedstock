@@ -1,4 +1,4 @@
-cmake \
+cmake ${CMAKE_ARGS} \
     -D CMAKE_INSTALL_PREFIX=$PREFIX \
     -D CMAKE_INSTALL_LIBDIR=lib \
     -D CMAKE_BUILD_TYPE=Release \
