@@ -1,5 +1,5 @@
 if [[ "$CONDA_BUILD_CROSS_COMPILATION" == "1" ]]; then
-  sed -i "/INTERFACE_INCLUDE_DIRECTORIES/c\  INTERFACE_INCLUDE_DIRECTORIES \"$PREFIX/include/rdkit;$PREFIX/include\"" "$PREFIX/lib/cmale/rdkit/rdkit-targets.cmake"
+  sed -i "/INTERFACE_INCLUDE_DIRECTORIES/c\  INTERFACE_INCLUDE_DIRECTORIES \"$PREFIX/include/rdkit;$PREFIX/include\"" "$PREFIX/lib/cmake/rdkit/rdkit-targets.cmake"
 fi
 
 cmake ${CMAKE_ARGS} \
