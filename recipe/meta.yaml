@@ -17,6 +17,7 @@ requirements:
   build:
     - cmake
     - make  # [unix]
+    - sed  # [unix]
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
   host:
