@@ -1,11 +1,11 @@
-About chemicalite
-=================
+About chemicalite-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/chemicalite-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/rvianello/chemicalite
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/chemicalite-feedstock/blob/main/LICENSE.txt)
 
 Summary: An SQLite extension for chemoninformatics applications
 
