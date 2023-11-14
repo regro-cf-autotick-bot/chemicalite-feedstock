@@ -12,7 +12,7 @@ source:
     - boost-to-std-any.patch
 
 build:
-  number: 13
+  number: 14
   skip: True  # [win]
 
 requirements:
@@ -24,7 +24,7 @@ requirements:
     - {{ compiler('cxx') }}
   host:
     - sqlite
-    - rdkit ==2023.09.1
+    - rdkit ==2023.09.2
     - libboost-devel
     - eigen
     - catch2 <3
