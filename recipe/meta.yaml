@@ -1,5 +1,5 @@
 {% set name = "chemicalite" %}
-{% set version = "2022.04.1" %}
+{% set version = "2024.02.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,13 +7,13 @@ package:
 
 source:
   url: https://github.com/rvianello/chemicalite/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 4527329b62d28923bfd07742a1cadca137407478246b79ec0a497900fa109ba8
+  sha256: fa254bb9a9b15b8fb4befefc28ff12225fdf99ddcf3ee0a5bd749be72283c9e7
   patches:
     - boost-to-std-any.patch
 
 build:
-  number: 14
-  skip: True  # [win]
+  number: 0
+  skip: true  # [win]
 
 requirements:
   build:
