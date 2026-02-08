@@ -23,7 +23,7 @@ requirements:
     - {{ compiler('cxx') }}
   host:
     - sqlite
-    - librdkit-dev ==2024.09.6
+    - librdkit-dev
     - libboost-devel
     - eigen
     - catch2
